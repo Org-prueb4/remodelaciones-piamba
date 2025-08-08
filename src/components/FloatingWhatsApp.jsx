@@ -1,7 +1,7 @@
 import { FaWhatsapp } from 'react-icons/fa'
 
 export default function FloatingWhatsApp() {
-  const phone = '+573001234567'
+  const phone = '+573124669507'
   const url = `https://wa.me/${phone.replace(/\D/g, '')}`
   return (
     <a

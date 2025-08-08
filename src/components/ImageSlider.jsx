@@ -6,9 +6,29 @@ export default function ImageSlider({ images = [], caption, initialIndex = 0, au
     return initialIndex
   }, [initialIndex])
   const [index, setIndex] = useState(safeInitial)
+  const [imageOrientations, setImageOrientations] = useState({})
   const total = images.length
   const prev = () => setIndex((i) => (i - 1 + total) % total)
   const next = () => setIndex((i) => (i + 1) % total)
+
+  // Detectar orientación de las imágenes
+  useEffect(() => {
+    const checkImageOrientation = (src, index) => {
+      const img = new Image()
+      img.onload = () => {
+        const isVertical = img.height > img.width
+        setImageOrientations(prev => ({
+          ...prev,
+          [index]: isVertical ? 'vertical' : 'horizontal'
+        }))
+      }
+      img.src = src
+    }
+
+    images.forEach((src, index) => {
+      checkImageOrientation(src, index)
+    })
+  }, [images])
 
   useEffect(() => {
     if (!auto || total <= 1) return
@@ -19,13 +39,20 @@ export default function ImageSlider({ images = [], caption, initialIndex = 0, au
 
   if (total === 0) return null
 
+  const currentOrientation = imageOrientations[index]
+  const isVertical = currentOrientation === 'vertical'
+
   return (
     <div className="w-full">
-      <div className="relative w-full h-[320px] sm:h-[420px] lg:h-[520px] overflow-hidden rounded-lg">
+      <div className={`relative w-full overflow-hidden rounded-lg bg-gray-100 ${
+        isVertical ? 'h-[500px] sm:h-[600px] lg:h-[700px]' : 'h-[400px] sm:h-[500px] lg:h-[600px]'
+      }`}>
         <img
           src={images[index]}
           alt={`Imagen ${index + 1} de ${total}`}
-          className="w-full h-full object-cover"
+          className={`w-full h-full ${
+            isVertical ? 'object-contain' : 'object-cover'
+          }`}
         />
         <button onClick={prev} className="absolute left-2 top-1/2 -translate-y-1/2 rounded-full bg-black/50 text-white w-9 h-9 grid place-items-center hover:bg-black/60" aria-label="Anterior">‹</button>
         <button onClick={next} className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-black/50 text-white w-9 h-9 grid place-items-center hover:bg-black/60" aria-label="Siguiente">›</button>

@@ -1,13 +1,13 @@
 import { FaPhoneAlt, FaWhatsapp, FaEnvelope, FaMapMarkerAlt, FaClock } from 'react-icons/fa'
 
 export default function Contact() {
-  const phoneDisplay = '+57 300 123 4567'
-  const phoneRaw = '573001234567'
-  const email = 'contacto@piamba.com'
+  const phoneDisplay = '+57 312 466 9507'
+  const phoneRaw = '573124669507'
+  const email = 'faiverjimenez2016@gmail.com'
   const whatsUrl = `https://wa.me/${phoneRaw}`
   const telUrl = `tel:${phoneRaw}`
   const mailUrl = `mailto:${email}`
-  const mapsUrl = 'https://maps.google.com/?q=Medellín, Colombia'
+  const mapsUrl = 'https://maps.google.com/?q=Carrera+91a+%2341+sur+24,+Bogotá,+Colombia'
 
   return (
     <section id="contacto" className="py-20 bg-gray-50 dark:bg-[#0a0f1a] scroll-mt-24">
@@ -32,7 +32,7 @@ export default function Contact() {
             </div>
             <div className="card p-5">
               <div className="flex items-center gap-3 text-deepblue dark:text-white font-semibold"><FaMapMarkerAlt /> Ubicación</div>
-              <p className="mt-1 text-gray-700 dark:text-gray-300">Medellín, Colombia</p>
+              <p className="mt-1 text-gray-700 dark:text-gray-300">Carrera 91a #41 sur 24, Bogotá, Colombia</p>
               <div className="mt-3"><a href={mapsUrl} target="_blank" rel="noreferrer" className="btn-outline">Ver en Google Maps</a></div>
             </div>
             <div className="card p-5">
@@ -53,7 +53,7 @@ export default function Contact() {
 
           <div className="mt-6">
             <h4 className="font-semibold text-deepblue dark:text-white">Cobertura</h4>
-            <p className="text-gray-700 dark:text-gray-300">Atendemos Medellín y área metropolitana. Consultar disponibilidad para otras ciudades.</p>
+            <p className="text-gray-700 dark:text-gray-300">Atendemos Bogotá y área metropolitana. Consultar disponibilidad para otras ciudades.</p>
           </div>
         </div>
       </div>

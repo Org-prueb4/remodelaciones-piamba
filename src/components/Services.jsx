@@ -9,9 +9,9 @@ const services = [
     title: 'Cocinas integrales',
     desc: 'Diseño, fabricación e instalación de cocinas modernas y funcionales.',
     gallery: [
-      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=2070&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1505691723518-36a1a3140a76?q=80&w=2070&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=2070&auto=format&fit=crop',
+      'https://remodelaciones-piamba.s3.us-east-2.amazonaws.com/SAVE_20250808_144105.jpg',
+      'https://remodelaciones-piamba.s3.us-east-2.amazonaws.com/SAVE_20250808_144114.jpg',
+      'https://remodelaciones-piamba.s3.us-east-2.amazonaws.com/SAVE_20250808_144135.jpg',
     ],
     info: 'Cocinas integrales a medida con materiales de alta calidad, herrajes silenciosos y diseño funcional.',
   },
@@ -20,9 +20,9 @@ const services = [
     title: 'Drywall y cielorrasos',
     desc: 'Construcción de muros, plafones, nichos y acabados en yeso.',
     gallery: [
-      'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2069&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1505843513577-22bb7d21e455?q=80&w=2069&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?q=80&w=2069&auto=format&fit=crop',
+      'https://remodelaciones-piamba.s3.us-east-2.amazonaws.com/SAVE_20250808_144142.jpg',
+      'https://remodelaciones-piamba.s3.us-east-2.amazonaws.com/SAVE_20250808_144150.jpg',
+      'https://remodelaciones-piamba.s3.us-east-2.amazonaws.com/SAVE_20250808_144159.jpg',
     ],
     info: 'Sistemas livianos con excelente aislamiento y terminación. Diseño de nichos e iluminación integrada.',
   },
@@ -31,9 +31,9 @@ const services = [
     title: 'Pintura profesional',
     desc: 'Alisado, estuco y pintura con terminados finos, interiores y exteriores.',
     gallery: [
-      'https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2070&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=2070&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?q=80&w=2069&auto=format&fit=crop',
+      'https://remodelaciones-piamba.s3.us-east-2.amazonaws.com/SAVE_20250808_144206.jpg',
+      'https://remodelaciones-piamba.s3.us-east-2.amazonaws.com/SAVE_20250808_144213.jpg',
+      'https://remodelaciones-piamba.s3.us-east-2.amazonaws.com/SAVE_20250808_144220.jpg',
     ],
     info: 'Preparación de superficies, corrección de imperfecciones y aplicación de pintura premium.',
   },
@@ -42,9 +42,9 @@ const services = [
     title: 'Closets y carpintería',
     desc: 'Closets a medida, puertas, muebles y centros de entretenimiento.',
     gallery: [
-      'https://images.unsplash.com/photo-1552324190-9e86fa095c4a?q=80&w=2069&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1598300053650-7431a7d80d1c?q=80&w=2069&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1974&auto=format&fit=crop',
+      'https://remodelaciones-piamba.s3.us-east-2.amazonaws.com/SAVE_20250808_144228.jpg',
+      'https://remodelaciones-piamba.s3.us-east-2.amazonaws.com/SAVE_20250808_144236.jpg',
+      'https://remodelaciones-piamba.s3.us-east-2.amazonaws.com/SAVE_20250808_144244.jpg',
     ],
     info: 'Mobiliario a medida con melamina, madera y acabados en poliuretano. Organización inteligente.',
   },
@@ -53,9 +53,9 @@ const services = [
     title: 'Diseño y asesoría',
     desc: 'Acompañamiento técnico y estético para tu proyecto.',
     gallery: [
-      'https://images.unsplash.com/photo-1499952127939-9bbf5af6b0af?q=80&w=2069&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?q=80&w=2034&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=2070&auto=format&fit=crop',
+      'https://remodelaciones-piamba.s3.us-east-2.amazonaws.com/SAVE_20250808_144105.jpg',
+      'https://remodelaciones-piamba.s3.us-east-2.amazonaws.com/SAVE_20250808_144114.jpg',
+      'https://remodelaciones-piamba.s3.us-east-2.amazonaws.com/SAVE_20250808_144135.jpg',
     ],
     info: 'Propuestas 3D, selección de materiales y acompañamiento en compras para garantizar el resultado.',
   },
@@ -64,9 +64,9 @@ const services = [
     title: 'Acabados integrales',
     desc: 'Pisos, enchapes, iluminación y detalles decorativos.',
     gallery: [
-      'https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=2070&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1505691723518-36a1a3140a76?q=80&w=2070&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2069&auto=format&fit=crop',
+      'https://remodelaciones-piamba.s3.us-east-2.amazonaws.com/SAVE_20250808_144142.jpg',
+      'https://remodelaciones-piamba.s3.us-east-2.amazonaws.com/SAVE_20250808_144150.jpg',
+      'https://remodelaciones-piamba.s3.us-east-2.amazonaws.com/SAVE_20250808_144159.jpg',
     ],
     info: 'Soluciones integrales de piso a techo, iluminación decorativa y acabados de lujo.',
   }
@@ -122,7 +122,7 @@ export default function Services() {
                 <li>Garantía por escrito</li>
               </ul>
               <div className="pt-2">
-                <a className="btn-primary" href={`https://wa.me/573001234567?text=${encodeURIComponent('Hola, quiero información sobre ' + current.title)}`} target="_blank" rel="noreferrer">Cotizar por WhatsApp</a>
+                <a className="btn-primary" href={`https://wa.me/573124669507?text=${encodeURIComponent('Hola, quiero información sobre ' + current.title)}`} target="_blank" rel="noreferrer">Cotizar por WhatsApp</a>
               </div>
             </div>
           </div>

@@ -46,7 +46,7 @@ export default function Modal({ isOpen, onClose, title, children }) {
           ref={dialogRef}
           role="dialog"
           aria-modal="true"
-          className="card w-full max-w-6xl max-h-[90vh] overflow-hidden flex flex-col"
+          className="card w-full max-w-7xl max-h-[95vh] overflow-hidden flex flex-col"
         >
           <div className="sticky top-0 z-10 flex items-center justify-between px-6 py-4 bg-white/80 dark:bg-[#0f172a]/80 backdrop-blur border-b border-gray-200/70 dark:border-white/10">
             <h3 className="text-lg font-semibold">{title}</h3>

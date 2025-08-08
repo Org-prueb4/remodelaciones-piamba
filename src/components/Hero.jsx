@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 
 const images = [
   'https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=2070&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1505691723518-36a1a3140a76?q=80&w=2070&auto=format&fit=crop',
+  'https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=2070&auto=format&fit=crop',
   'https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?q=80&w=2069&auto=format&fit=crop',
 ]
 

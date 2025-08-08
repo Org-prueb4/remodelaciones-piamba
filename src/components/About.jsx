@@ -18,7 +18,7 @@ export default function About() {
           </ul>
         </div>
         <div data-aos="fade-left" className="card overflow-hidden">
-          <img alt="Equipo trabajando" className="w-full h-80 object-cover" src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2069&auto=format&fit=crop" />
+          <img alt="Equipo trabajando" className="w-full h-80 object-cover" src="https://remodelaciones-piamba.s3.us-east-2.amazonaws.com/SAVE_20250808_144057.jpg" />
         </div>
       </div>
     </section>
